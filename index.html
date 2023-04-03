@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
@@ -11,15 +12,32 @@
     <p id="root">
 
     </p>
-    <h1 id="idH1">
-
+    <h1 id="demo" style="text-align: center; color: green; font-size: 50px; font-family:'Courier New', Courier, monospace">
+        Hello World!
     </h1>
-    <h3 id="idH3">
-
+    <h2 id="idH3" style="text-align: center; color:aqua; font-family: monospace;">
+        JavaScript can change the attribute value of an element. Such as src of image tag etc.
     </h3>
 
+    <img src="/images/bulboff.jpg" id="changeAttribute" width="100px" class="image" alt="image of a bulb which is on">
+    <div class="button">
+        <div class="container">
+            <div class="row" style="text-align: center;">
+                <div class="col" style="padding: 10px">
+                    <button type="button" onclick='document.getElementById("changeAttribute").src = "/images/bulbon.jpg"' style="background-color: green; padding: 5px; margin-right: 10px;">Turn On</button>
+                    <button type="button" onclick="document.getElementById('changeAttribute').src = '/images/bulboff.jpg'" style="background-color: red; padding: 5px; margin-left: 10px;">Turn Off</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h3 id="hola" style="text-align: center; color: blue;">JavaScript: Controls the behaviour of web pages</h3>
+
+    <h2 class="hello" id="hi" style="display: none;">Hello JavaScript!</h2>
+    <button type="button" class="btn" onclick="document.getElementById('hi').style.display = 'block'">Click me to show the above text.</button>
+
+
     <!-- Javascript connection to HTML codes  -->
-    <!-- <script src="js/script.js"></script>  -->
+    <script src="js/script.js"></script> 
     <!-- <script src="/js/input.js"></script>  -->
     <!-- <script src="/js/variable.js"></script>  -->
     <!-- <script src="/js/operator.js"></script> -->
@@ -27,6 +45,6 @@
     <!-- <script src="/js/template literal.js"></script>  -->
     <!-- <script src="/js/condition.js"></script>  -->
     <!-- <script src="/js/loop.js"></script>  -->
-    <script src="/js/function.js"></script>
+    <!-- <script src="/js/function.js"></script> -->
 </body>
 </html>

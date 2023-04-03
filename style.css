@@ -1,0 +1,21 @@
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hello{
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkviolet;
+    text-align: center;
+}
+.btn{
+    display: block;
+    background-color: darkgoldenrod;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: azure;
+    margin: auto;
+}

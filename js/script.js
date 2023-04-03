@@ -1,20 +1,15 @@
-// window.alert and alert show output using alert box 
-window.alert("I am learning Javascript!");
-alert("Hello Javascript!");
+//JavaScript can change the HTML contents of a web page.
+//getElementById() is one of many JavaScript methods to change the content of web page.
 
-// document.write shows output on the html page 
-// document.write("I am learning Javascript!"); 
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+document.getElementById('demo').innerHTML = "I am learning JavaScript!";
 
-// to write something inside of a  html tag innerHTML is used and this too shows output on html page
-document.getElementById("root").innerHTML="I love learning Javascript!";
-document.getElementById("idH1").innerHTML="Hello Javascript! I am H1";
-document.getElementById("idH3").innerHTML="Hello World!, I am H3";
+//JavaScript can change the attribute value of a HTML element.
 
-// to write something inside the console of a browser console.log is used 
-console.log("Hello Javascript!");
-console.log("I am line 'one'.");
-console.log('I am line "two".');
-document.write(67.98);
+document.getElementById('changeAttribute').src = "/images/bulbon.jpg";
+document.getElementById('changeAttribute').src = "/images/bulboff.jpg";
 
-/* this is multiple 
-line commnet. */
+//Below code changes the CSS attribute of a tag.
+document.getElementById("hola").style.fontSize = '40px';
+document.getElementById("hola").style.fontFamily = 'Courier';
+document.getElementById("hola").style.color = "yellow";
