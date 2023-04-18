@@ -1,43 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+        integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <!-- <style>
+        .success, .error{
+            color: white;
+            padding: 5px;
+            margin: 5px 0 15px 0;
+        }
+
+        .success{
+            background: green;
+        }
+
+        .error{
+            background: red;
+        }
+    </style> -->
     <title>Document</title>
 </head>
+
 <body>
-    <!-- Output in Javascript  -->
-    <p id="root">
-
-    </p>
-    <h1 id="demo" style="text-align: center; color: green; font-size: 50px; font-family:'Courier New', Courier, monospace">
-        Hello World!
-    </h1>
-    <h2 id="idH3" style="text-align: center; color:aqua; font-family: monospace;">
-        JavaScript can change the attribute value of an element. Such as src of image tag etc.
-    </h3>
-
-    <img src="/images/bulboff.jpg" id="changeAttribute" width="100px" class="image" alt="image of a bulb which is on">
-    <div class="button">
-        <div class="container">
-            <div class="row" style="text-align: center;">
-                <div class="col" style="padding: 10px">
-                    <button type="button" onclick='document.getElementById("changeAttribute").src = "/images/bulbon.jpg"' style="background-color: green; padding: 5px; margin-right: 10px;">Turn On</button>
-                    <button type="button" onclick="document.getElementById('changeAttribute').src = '/images/bulboff.jpg'" style="background-color: red; padding: 5px; margin-left: 10px;">Turn Off</button>
-                </div>
+    <!-- <div class="container">
+        <h3>Add Book</h3>
+        <form id="add_book">
+            <div>
+                <label for="title">Title</label>
+                <input type="text" id="book_title" class="u-full-width">
             </div>
-        </div>
-    </div>
-    <h3 id="hola" style="text-align: center; color: blue;">JavaScript: Controls the behaviour of web pages</h3>
-
-    <h2 class="hello" id="hi" style="display: none;">Hello JavaScript!</h2>
-    <button type="button" class="btn" onclick="document.getElementById('hi').style.display = 'block'">Click me to show the above text.</button>
+            <div>
+                <label for="author">Author</label>
+                <input type="text" id="author" class="u-full-width">
+            </div>
+            <div>
+                <label for="isbn">ISBN#</label>
+                <input type="text" id="isbn" class="u-full-width">
+            </div>
+            <div>
+                <input type="submit" value="Submit" class="u-full-width">
+            </div>
+        </form>
+        <table class="u-full-width">
+            <thead>
+                <tr>
+                    <th>Book</th>
+                    <th>Author</th>
+                    <th>ISBN</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="book_list">
+                
+            </tbody>
+        </table>
+    </div> -->
 
 
     <!-- Javascript connection to HTML codes  -->
-    <!-- <script src="js/script.js"></script>   -->
+    <!-- <script src="js/script.js"></script> -->
     <!-- <script src="/js/input.js"></script>  -->
     <!-- <script src="/js/variable.js"></script>  -->
     <!-- <script src="/js/operator.js"></script> -->
@@ -46,6 +73,8 @@
     <!-- <script src="/js/condition.js"></script>  -->
     <!-- <script src="/js/loop.js"></script>  -->
     <!-- <script src="/js/function.js"></script> -->
-    <script src="/js/oop.js"></script>
+    <!-- <script src="/js/oop.js"></script>  -->
+    <script src="js/es6.js"></script>
 </body>
+
 </html>
